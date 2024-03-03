@@ -47,7 +47,7 @@ with mp_pose.Pose(
         print("Cannot open camera")
         exit()
     while True:
-        current_time=time.time()
+        # current_time=time.time()
         counter=0
         ret, img = cap.read()
         if not ret:
