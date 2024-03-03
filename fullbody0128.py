@@ -27,10 +27,7 @@ mp_drawing_styles = mp.solutions.drawing_styles  # mediapipe 繪圖樣式
 mp_pose = mp.solutions.pose                      # mediapipe 姿勢偵測
 mp_hands = mp.solutions.hands
 
-try:
-    cap = cv2.VideoCapture(0)
-except:
-    cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 stage=None
 stage1=None
 stage2=None
