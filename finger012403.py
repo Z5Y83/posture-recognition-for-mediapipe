@@ -176,7 +176,7 @@ with mp_hands.Hands(
                     mp_drawing_styles.get_default_hand_landmarks_style(),
                     mp_drawing_styles.get_default_hand_connections_style())
 
-        cv2.imshow('oxxostudio', img)
+        cv2.imshow('output', img)
         if cv2.waitKey(5) == ord('q'):
             break
 cap.release()
