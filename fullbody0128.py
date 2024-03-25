@@ -134,7 +134,7 @@ with mp_pose.Pose(
             # distance7=cal_distance(left_eye,left_thumb)*1000
             # distance8=cal_distance(right_eye,right_thumb)*1000
             # print(previous_left_thumb,'\t',left_thumb)
-            print(distance5,'\t',distance6)
+            # print(distance5,'\t',distance6)
             if 5<=(distance5 or distance6)<=30:
                 stage2="wave hand"
             else:
